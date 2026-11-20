@@ -1,0 +1,167 @@
+PA 5 for MIS 221
+
+The following tests were run on November 11th using the starting data files:
+
+Test 1 = Main Menu: input out of range
+Input: 67
+Expected: display "Invalid choice. Enter 1-4."
+Actual: displayed "Invalid choice. Enter 1-4."
+Result: passed
+
+Test 2 = Main Menu: non integer input
+Input: hiii
+Expected: display "Invalid choice. Enter 1-4."
+Actual: displayed "Invalid choice. Enter 1-4."
+Result: passed
+
+Test 3 = Customer: sign in with unknown email
+Input: randoms@email.com
+Expected: display "No customer found with that email."
+Actual: displayed "No customer found with that email."
+Result: passed
+
+Test 4 = Customer: browse available gear
+Input: john@email.com, 1
+Expected: display "Folding Camp Chair"
+Actual: displayed "Folding Camp Chair"
+Result: passed
+
+Test 5 = Customer: search by type
+Input: 2, 1, cooler
+Expected: display "120-Quart Ice Chest"
+Actual: displayed "120-Quart Ice Chest"
+Result: passed
+
+Test 6 = Customer: search by name
+Input: 2, 2, chair
+Expected: display "Folding Camp Chair"
+Actual: displayed "Folding Camp Chair"
+Result: passed
+
+Test 7 = Customer: start a rental
+Input: 3, gear 1, 11/14/2026, 08:30
+Expected: display "Rental Started", rentals.txt and gear.txt get updated
+Actual: displayed "Rental Started", rentals.txt and gear.txt got updated
+Result: passed
+
+Test 8 = Customer: inactive customer tries to rent
+Input: sara@email.com, 3
+Expected: display "Your account is inactive"
+Actual: displayed "Your account is inactive"
+Result: passed
+
+Test 9 = Customer: invalid time
+Input: 25:00
+Expected: display "Invalid time. Use 24-hour HH:MM"
+Actual: displayed "Invalid time. Use 24-hour HH:MM"
+Result: passed
+
+Test 10 = Customer: end a rental and cost rounds up
+Input: start 08:30, end 11:45, $6.00/hr
+Expected: display "Cost: $24.00"
+Actual: displayed "Cost: $24.00"
+Result: passed
+
+Test 11 = Customer: view rental history
+Input: a$aprocky@email.com, 5
+Expected: display "Folding Table"
+Actual: displayed "Folding Table"
+Result: passed
+
+Test 12 = Manager: wrong pin 3 times
+Input: 0000, 1111, 2222
+Expected: display "Too many incorrect tries"
+Actual: displayed "Too many incorrect tries"
+Result: passed
+
+Test 13 = Manager: add gear
+Input: Grill, Seating, 4.25, Available, 2, 5
+Expected: display "was added with Gear ID 13"
+Actual: displayed "was added with Gear ID 13"
+Result: passed
+
+Test 14 = Manager: remove gear that is rented out
+Input: gear 1
+Expected: display "This item has units rented out"
+Actual: displayed "This item has units rented out"
+Result: passed
+
+Test 15 = Manager: change pickup point status
+Input: point 1, Inactive
+Expected: display "The Quad is now Inactive."
+Actual: displayed "The Quad is now Inactive."
+Result: passed
+
+Test 16 = Manager: mark a rental completed
+Input: rental 3, 10/10/2026, 16:00
+Expected: display "Cost: $6.00"
+Actual: displayed "Cost: $6.00"
+Result: passed
+
+Test 17 = Manager: add customer with an email already used
+Input: john@email.com
+Expected: display "A customer with that email already exists."
+Actual: displayed "A customer with that email already exists."
+Result: passed
+
+Test 18 = Manager: deactivate customer
+Input: mike@email.com
+Expected: display "has been deactivated."
+Actual: displayed "has been deactivated."
+Result: passed
+
+Test 19 = Reports: daily rentals
+Input: 10/10/2026
+Expected: display "Total rentals: 3"
+Actual: displayed "Total rentals: 3"
+Result: passed
+
+Test 20 = Reports: gear currently out
+Input: 2
+Expected: display "Total out: 4"
+Actual: displayed "Total out: 4"
+Result: passed
+
+Test 21 = Reports: overdue rentals
+Input: 11/11/2026, 14:00
+Expected: display "Total overdue: 4"
+Actual: displayed "Total overdue: 4"
+Result: passed
+
+Test 22 = Reports: most popular gear
+Input: 4
+Expected: display "10x10 Pop-Up Canopy" ranked 1st
+Actual: displayed "10x10 Pop-Up Canopy" ranked 1st
+Result: passed
+
+Test 23 = Reports: revenue
+Input: 5
+Expected: display "Total Revenue: $144.00"
+Actual: displayed "Total Revenue: $144.00"
+Result: passed
+
+Test 24 = Extras: student discount
+Input: alex@crimson.ua.edu, gear 9, 08:00-09:30
+Expected: display "Cost: $16.20"
+Actual: displayed "Cost: $16.20"
+Result: passed
+
+Test 25 = Extras: overdue fee
+Input: alex@crimson.ua.edu, gear 1, 08:30-13:45
+Expected: display "Overdue Fee: $10.00"
+Actual: displayed "Overdue Fee: $10.00"
+Result: passed
+
+Test 26 = Extras: save report to a text file
+Input: 5, Y
+Expected: display "Report saved to report_revenue.txt."
+Actual: displayed "Report saved to report_revenue.txt."
+Result: passed
+
+Test 27 = Files: changes stay after restarting
+Input: add a customer, exit, run again, sign in
+Expected: display "Welcome, New!"
+Actual: displayed "Welcome, New!"
+Result: passed
+
+Results: all 27/27 tests passed!

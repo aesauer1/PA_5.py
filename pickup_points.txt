@@ -1,0 +1,12 @@
+1#The Quad#Active#40#10/02/2026
+2#Bryant-Denny Stadium#Active#30#10/09/2026
+3#Coleman Coliseum#Inactive#20#09/18/2026
+4#Ferguson Center#Active#25#10/08/2026
+5#Gorgas Library#Active#20#10/05/2026
+6#Student Recreation Center#Active#35#10/07/2026
+7#Shelby Quad#Active#15#09/30/2026
+8#Hewson Hall#Active#20#10/06/2026
+9#Presidential Village#Inactive#15#09/12/2026
+10#Bryce Lawn#Active#30#10/09/2026
+11#Alston Hall#Active#20#10/01/2026
+12#Riverwalk Pavilion#Active#25#10/03/2026

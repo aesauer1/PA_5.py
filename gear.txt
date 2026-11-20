@@ -1,0 +1,12 @@
+1#10x10 Pop-Up Canopy#Shade#6.00#Available#1#8#7
+2#48-Quart Rolling Cooler#Cooler#3.00#Available#2#12#11
+3#Folding Camp Chair#Seating#1.50#Available#1#30#29
+4#Bluetooth Party Speaker#Audio#4.50#Unavailable#3#5#0
+5#Beach Umbrella#Shade#2.50#Available#4#10#10
+6#Soft-Sided Cooler Bag#Cooler#2.00#Available#5#15#15
+7#Folding Table#Seating#3.50#Available#2#10#10
+8#Portable PA Speaker#Audio#7.00#Available#6#4#4
+9#Tailgate Tent with Sidewalls#Shade#9.00#Available#10#6#6
+10#Stadium Seat Cushion#Seating#1.00#Available#2#40#40
+11#120-Quart Ice Chest#Cooler#5.00#Available#8#6#6
+12#Waterproof Speaker#Audio#3.50#Available#10#8#7

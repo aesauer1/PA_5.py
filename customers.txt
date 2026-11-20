@@ -1,0 +1,13 @@
+john@email.com#John#Smith#205-555-0101#Active
+jane@email.com#Jane#Doe#205-555-0102#Active
+mike@email.com#Mike#Brown#256-555-0103#Active
+sara@email.com#Sara#Lee#251-555-0104#Inactive
+emily@email.com#Emily#Johnson#205-555-0105#Active
+chris@email.com#Chris#Davis#334-555-0106#Active
+ashley@email.com#Ashley#Wilson#205-555-0107#Active
+david@email.com#David#Martinez#256-555-0108#Active
+tyler@email.com#Tyler#Moore#205-555-0109#Active
+olivia@email.com#Olivia#Taylor#251-555-0110#Active
+brandon@email.com#Brandon#Clark#334-555-0111#Inactive
+hannah@email.com#Hannah#White#205-555-0112#Active
+alex@crimson.ua.edu#Alex#Rivera#205-555-0113#Active
